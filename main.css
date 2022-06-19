@@ -30,13 +30,13 @@ nav>a>li:hover{
     color: gold;
 }
 #main{
-    display: inline-block;
-
+    display: flex;
+    margin-top: 20px;
 }
 aside{
     border-right: 1px white solid;
-    
-    
+    width: 250px;
+    min-height: 600px;
 }
 
 #add{
@@ -45,4 +45,26 @@ aside{
     height: 50px;
     font-size: 30px;
 }
-    
+main{
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+}
+#titulo{
+    width: 250px;
+}
+
+textarea{
+    width: 300px;
+    min-height: 500px;
+
+}
+#opciones{
+    display: flex;
+    justify-content: space-around;
+}
+
+#opciones>button{
+    border: 1px white solid;
+    padding: 5px;
+}
